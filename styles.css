@@ -13,12 +13,12 @@ body {
   padding: 1px 1px;
 }
 
-li {
+.navbar li {
   float: left;
   border-right: 1px solid #bbb;
 }
 
-a {
+.navbar a {
   display: block;
   padding: 8px;
   background-color: #dddddd;
