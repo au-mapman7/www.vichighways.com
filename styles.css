@@ -5,6 +5,25 @@ body {
   font-style: normal;
 }
 
+/* Navigation bar styles */
+.navbar {
+  display:flex;
+  font-size: 15px;
+  list-style-type: none;
+  padding: 5px 5px;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+a {
+  display: block;
+  padding: 15px;
+  background-color: #dddddd;
+}
+
 /* Header styles */
 .header h1 {
   text-align: center;
