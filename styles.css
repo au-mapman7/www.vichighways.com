@@ -8,9 +8,9 @@ body {
 /* Navigation bar styles */
 .navbar {
   display:flex;
-  font-size: 15px;
+  font-size: 12px;
   list-style-type: none;
-  padding: 5px 5px;
+  padding: 1px 1px;
 }
 
 li {
@@ -20,7 +20,7 @@ li {
 
 a {
   display: block;
-  padding: 15px;
+  padding: 8px;
   background-color: #dddddd;
 }
 
