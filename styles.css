@@ -56,6 +56,14 @@ body {
   column-gap: 20px;
 }
 
+.container3b {
+  display: grid;
+  align-items: center;
+  justify-self: left;
+  grid-template-columns: auto auto 200px;
+  column-gap: 20px;
+}
+
 /* Image styles */
 .center {
   display: block;
