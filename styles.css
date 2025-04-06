@@ -46,6 +46,26 @@ body {
 
 .paragraph p {
   font-size: 15px;
+  text-align: justify;
+}
+
+.sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+/* Reference style */
+.references h1 {
+  font-size: 12px;
+  font-style: bold;
+  color: gray;
+  margin-bottom: -10px;
+}
+
+.references p {
+  font-size: 12px;
+  font-style: normal;
+  color: grey;
 }
 
 /* Grid styles */
@@ -58,9 +78,9 @@ body {
 
 .container3b {
   display: grid;
-  align-items: center;
+  align-items: top;
   justify-self: left;
-  grid-template-columns: auto auto 200px;
+  grid-template-columns: auto auto 15px;
   column-gap: 20px;
 }
 
