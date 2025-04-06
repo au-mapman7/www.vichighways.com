@@ -44,6 +44,11 @@ body {
   margin-bottom: -10px;
 }
 
+.paragraph h2 {
+  font-size: 18px;
+  font-style: bold;
+}
+
 .paragraph p {
   font-size: 15px;
   text-align: justify;
@@ -80,6 +85,14 @@ body {
   grid-template-columns: 70px auto;
   column-gap: 20px;
   row-gap: 10px;
+}
+
+.container2b {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 60px auto;
+  column-gap: 20px;
+  row-gap: 15px;
 }
 
 .container3a {
