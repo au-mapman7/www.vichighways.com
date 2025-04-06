@@ -49,6 +49,11 @@ body {
   text-align: justify;
 }
 
+.paragraph pc {
+  font-size: 15px;
+  text-align: center;
+}
+
 .sup {
   vertical-align: super;
   font-size: smaller;
@@ -69,6 +74,14 @@ body {
 }
 
 /* Grid styles */
+.container2a {
+  display: grid;
+  align-items: top;
+  grid-template-columns: 70px auto;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
 .container3a {
   display: grid;
   align-items: center;
