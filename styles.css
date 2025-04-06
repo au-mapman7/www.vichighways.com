@@ -90,9 +90,9 @@ body {
 .container2b {
   display: grid;
   align-items: center;
-  grid-template-columns: 60px auto;
+  grid-template-columns: 80px auto;
   column-gap: 20px;
-  row-gap: 15px;
+  row-gap: 10px;
 }
 
 .container3a {
