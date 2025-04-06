@@ -48,14 +48,15 @@ body {
   font-size: 15px;
 }
 
-/* Image styles */
-.container1 {
+/* Grid styles */
+.container3a {
   display: grid;
   align-items: center;
   grid-template-columns: 200px auto 200px;
   column-gap: 20px;
 }
 
+/* Image styles */
 .center {
   display: block;
   margin-left: auto;
