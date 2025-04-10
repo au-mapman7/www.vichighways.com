@@ -111,18 +111,10 @@ main {
   color: white;
 }
 
-.container2a {
+.container2 {
   display: grid;
   align-items: top;
-  grid-template-columns: 70px auto;
-  column-gap: 20px;
-  row-gap: 10px;
-}
-
-.container2b {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 80px auto;
+  grid-template-columns: auto auto;
   column-gap: 20px;
   row-gap: 10px;
 }
@@ -131,14 +123,6 @@ main {
   display: grid;
   align-items: center;
   grid-template-columns: 200px auto 200px;
-  column-gap: 20px;
-}
-
-.container3b {
-  display: grid;
-  align-items: top;
-  justify-self: left;
-  grid-template-columns: auto auto 15px;
   column-gap: 20px;
 }
 
