@@ -71,17 +71,17 @@ main {
 }
 
 .paragraph h2 {
-  font-size: 15px;
+  font-size: 16px;
   font-style: bold;
 }
 
 .paragraph p {
-  font-size: 12px;
+  font-size: 15px;
   text-align: justify;
 }
 
 .paragraph pc {
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
 }
 
