@@ -12,8 +12,15 @@ a {
 }
 
 main {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Navigation bar styles */
@@ -58,23 +65,23 @@ main {
 
 /* Paragraph styles */
 .paragraph h1 {
-  font-size: 20px;
+  font-size: 18px;
   font-style: bold;
   margin-bottom: -10px;
 }
 
 .paragraph h2 {
-  font-size: 18px;
+  font-size: 15px;
   font-style: bold;
 }
 
 .paragraph p {
-  font-size: 15px;
+  font-size: 12px;
   text-align: justify;
 }
 
 .paragraph pc {
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -98,6 +105,12 @@ main {
 }
 
 /* Grid styles */
+.container1a {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 .container2a {
   display: grid;
   align-items: top;
