@@ -23,6 +23,14 @@ main {
   transform: translate(-50%, -50%);
 }
 
+/* Contents grid styles */
+.contents {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 0;
+  line-height: 150%;
+}
+
 /* Navigation bar styles */
 .navbar {
   display: flex;
